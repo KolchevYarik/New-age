@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+ background: url("../img/bg-pattern.png"),linear-gradient(to left, #7b4397, #dc2430);
+}
+body{
+  background-color: #fdcc52;
+}
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+.clear {
+  clear:both;
+}
+.logo{
+  float: left;
+  margin: 20px;
+  font-family: "RedRingBlack", sans-serif;
+  color: whitesmoke;
+}
+.menu{
+  float: right;
+  margin: 20px;
+}
+.menu ul{
+  list-style: none;
+}
+.menu li{
+  display: inline-block;
+  padding-left: 30px;
+}
+.menu a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "RedRingLight", sans-serif;
+  color: whitesmoke;
+}
+.container60{
+  float: left;
+  width: 60%;
+  margin-top: 250px;
+}
+.container60 h1{
+  margin-bottom: 50px;
+  padding: 0 45px;
+  font-family: "RedRingLight", sans-serif;
+  font-size: 50px;
+  color: whitesmoke;
+}
+.container40{
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+.container40 img{
+  width: 70%;
+  padding-top: 150px;
+}
+.btn{
+display: inline-block;
+border:2px solid whitesmoke;
+font-size: 18px;
+margin-left: 45px;
+padding: 20px 40px;
+text-transform: uppercase;
+text-decoration: none;
+border-radius: 45px;
+font-family: "RedRingLight", sans-serif;
+color: whitesmoke;
+}
+/* main{
+  background-color: #fdcc52;
+} */
+.container2 {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+section.download{
+  width: 100%;
+  text-align: center;
+}
+.download h2{
+    padding: 100px 0 20px;
+    font-family:  "ProximaNovaLight", sans-serif;
+    font-size: 60px;
+    color: whitesmoke;
+}
+.containerdownload p{
+    font-family: "ProximaNovaLight", sans-serif;
+    font-size: 17px;
+    color: whitesmoke;
+}
+.containerbadges{
+  padding: 20px 0 100px;
+}
+.containerbadges img{
+  font-size: 50px;
+}
+section.features{
+  width: auto;
+  height: 1100px;
+  background-color: white;
+  text-align: center;
+}
+.features h2{
+  padding: 150px 0 20px;
+  font-family: "ProximaNovaLight", sans-serif;
+  font-size: 45px;
+}
+.features p{
+  padding: 0 0 20px;
+  font-family: "ProximaNovaLight", sans-serif;
+  font-size: 17px;
+}
+hr {
+    max-width: 100px;
+    margin: 25px auto 0;
+    border-width: 1px;
+    border-color: rgba(34,34,34,.1);
+}
+.content {
+  padding: 100px 0;
+}
+.container55{
+  float: right;
+  width: 55%;
+}
+.container45{
+  float: left;
+  width: 45%;
+  text-align: center;
+}
+
+.feature-item {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding: 0 30px;
+}
+.feature-item h3{
+  font-family: "ProximaNovaLight", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+.feature-item p{
+  font-family: "ProximaNovaLight", sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+section.features .feature-item i {
+    font-size: 80px;
+    display: block;
+    margin-bottom: 15px;
+    background: -webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
+    background: linear-gradient(to left,#7b4397,#dc2430);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section.cta{
+  position: relative;
+  padding: 250px 0;
+  background-image: url("../img/bg-cta.jpg");
+  background-position: center;
+  background-size: cover;
+}
+section.cta h2{
+  font-size: 50px;
+  max-width: 450px;
+  padding: 0 200px;
+  font-family: "RedRingLight", sans-serif;
+  color: whitesmoke;
+  letter-spacing: 5px;
+}
+.btncta{
+display: inline-block;
+border:2px solid whitesmoke;
+font-size: 18px;
+margin-left: 200px;
+padding: 20px 40px;
+text-transform: uppercase;
+text-decoration: none;
+border-radius: 45px;
+font-family: "RedRingLight", sans-serif;
+color: whitesmoke;
+}
+section.love{
+  text-align: center;
+  height: 350px;
+}
+section.love h2{
+  padding: 100px 0 20px;
+  font-size: 50px;
+  font-family: "RedRingLight", sans-serif;
+  color: whitesmoke;
+}
+section.love i {
+  color: white;
+}
+section.love span{
+  color: red;
+}
+/* .social{
+  padding bottom: 100px 0 100px;
+  } */
+section.love ul.social li {
+  font-size: 40px;
+  line-height: 80px;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  color: white;
+  border-radius: 100%;
+}
+section.love ul.social li.twitter  {
+  background-color: #1da1f2;
+}
+
+section.love ul.social li.facebook  {
+  background-color:#0A02FC;
+}
+
+section.love ul.social li.google  {
+  background-color: #F32828;
+}
+footer {
+  padding: 25px 0;
+  text-align: center;
+  background-color: #222222;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer ul li {
+  font-size: 12px;
+  display: inline-block;
+}
